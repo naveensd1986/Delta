@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="DeltaSuite" duration-ms="16710" started-at="2016-09-04T11:54:58Z" finished-at="2016-09-04T11:55:15Z">
+  <suite name="DeltaSuite" duration-ms="66268" started-at="2016-09-10T10:36:10Z" finished-at="2016-09-10T10:37:16Z">
     <groups>
     </groups>
-    <test name="ChromeTest" duration-ms="13150" started-at="2016-09-04T11:54:58Z" finished-at="2016-09-04T11:55:11Z">
+    <test name="ChromeTest" duration-ms="53956" started-at="2016-09-10T10:36:10Z" finished-at="2016-09-10T10:37:04Z">
       <class name="delta.main.DeltaDriver">
-        <test-method status="PASS" signature="initFrameWork()[pri:0, instance:delta.main.DeltaDriver@327471b5]" name="initFrameWork" is-config="true" duration-ms="355" started-at="2016-09-04T17:24:58Z" finished-at="2016-09-04T17:24:58Z">
+        <test-method status="PASS" signature="initFrameWork()[pri:0, instance:delta.main.DeltaDriver@6be46e8f]" name="initFrameWork" is-config="true" duration-ms="484" started-at="2016-09-10T16:06:10Z" finished-at="2016-09-10T16:06:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initFrameWork -->
-        <test-method status="PASS" signature="launchApp(org.testng.xml.XmlTest)[pri:0, instance:delta.main.DeltaDriver@327471b5]" name="launchApp" is-config="true" duration-ms="9948" started-at="2016-09-04T17:24:59Z" finished-at="2016-09-04T17:25:09Z">
+        <test-method status="PASS" signature="launchApp(org.testng.xml.XmlTest)[pri:0, instance:delta.main.DeltaDriver@6be46e8f]" name="launchApp" is-config="true" duration-ms="30843" started-at="2016-09-10T16:06:11Z" finished-at="2016-09-10T16:06:42Z">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method status="PASS" signature="testScenarios(java.lang.String, java.lang.String)[pri:0, instance:delta.main.DeltaDriver@327471b5]" name="testScenarios" duration-ms="1375" started-at="2016-09-04T17:25:09Z" data-provider="getScenarios" finished-at="2016-09-04T17:25:10Z">
+        <test-method status="PASS" signature="testScenarios(java.lang.String, java.lang.String)[pri:0, instance:delta.main.DeltaDriver@6be46e8f]" name="testScenarios" duration-ms="15013" started-at="2016-09-10T16:06:42Z" data-provider="getScenarios" finished-at="2016-09-10T16:06:57Z">
           <params>
             <param index="0">
               <value>
@@ -38,30 +38,30 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScenarios -->
-        <test-method status="PASS" signature="quitApp(org.testng.ITestResult)[pri:0, instance:delta.main.DeltaDriver@327471b5]" name="quitApp" is-config="true" duration-ms="77" started-at="2016-09-04T17:25:10Z" finished-at="2016-09-04T17:25:10Z">
+        <test-method status="PASS" signature="quitApp(org.testng.ITestResult)[pri:0, instance:delta.main.DeltaDriver@6be46e8f]" name="quitApp" is-config="true" duration-ms="6386" started-at="2016-09-10T16:06:57Z" finished-at="2016-09-10T16:07:03Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testScenarios status=SUCCESS method=DeltaDriver.testScenarios(java.lang.String, java.lang.String)[pri:0, instance:delta.main.DeltaDriver@327471b5] output={null}]]]>
+                <![CDATA[[TestResult name=testScenarios status=SUCCESS method=DeltaDriver.testScenarios(java.lang.String, java.lang.String)[pri:0, instance:delta.main.DeltaDriver@6be46e8f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitApp -->
-        <test-method status="PASS" signature="endFrameWork()[pri:0, instance:delta.main.DeltaDriver@327471b5]" name="endFrameWork" is-config="true" duration-ms="510" started-at="2016-09-04T17:25:10Z" finished-at="2016-09-04T17:25:11Z">
+        <test-method status="PASS" signature="endFrameWork()[pri:0, instance:delta.main.DeltaDriver@6be46e8f]" name="endFrameWork" is-config="true" duration-ms="357" started-at="2016-09-10T16:07:03Z" finished-at="2016-09-10T16:07:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endFrameWork -->
       </class> <!-- delta.main.DeltaDriver -->
     </test> <!-- ChromeTest -->
-    <test name="FirefoxTest" duration-ms="16710" started-at="2016-09-04T11:54:58Z" finished-at="2016-09-04T11:55:15Z">
+    <test name="FirefoxTest" duration-ms="66268" started-at="2016-09-10T10:36:10Z" finished-at="2016-09-10T10:37:16Z">
       <class name="delta.main.DeltaDriver">
-        <test-method status="PASS" signature="initFrameWork()[pri:0, instance:delta.main.DeltaDriver@26f67b76]" name="initFrameWork" is-config="true" duration-ms="354" started-at="2016-09-04T17:24:58Z" finished-at="2016-09-04T17:24:58Z">
+        <test-method status="PASS" signature="initFrameWork()[pri:0, instance:delta.main.DeltaDriver@3dd3bcd]" name="initFrameWork" is-config="true" duration-ms="484" started-at="2016-09-10T16:06:10Z" finished-at="2016-09-10T16:06:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initFrameWork -->
-        <test-method status="PASS" signature="launchApp(org.testng.xml.XmlTest)[pri:0, instance:delta.main.DeltaDriver@26f67b76]" name="launchApp" is-config="true" duration-ms="14265" started-at="2016-09-04T17:24:59Z" finished-at="2016-09-04T17:25:13Z">
+        <test-method status="PASS" signature="launchApp(org.testng.xml.XmlTest)[pri:0, instance:delta.main.DeltaDriver@3dd3bcd]" name="launchApp" is-config="true" duration-ms="54624" started-at="2016-09-10T16:06:11Z" finished-at="2016-09-10T16:07:06Z">
           <params>
             <param index="0">
               <value>
@@ -72,7 +72,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method status="PASS" signature="testScenarios(java.lang.String, java.lang.String)[pri:0, instance:delta.main.DeltaDriver@26f67b76]" name="testScenarios" duration-ms="1060" started-at="2016-09-04T17:25:13Z" data-provider="getScenarios" finished-at="2016-09-04T17:25:14Z">
+        <test-method status="PASS" signature="testScenarios(java.lang.String, java.lang.String)[pri:0, instance:delta.main.DeltaDriver@3dd3bcd]" name="testScenarios" duration-ms="10188" started-at="2016-09-10T16:07:06Z" data-provider="getScenarios" finished-at="2016-09-10T16:07:16Z">
           <params>
             <param index="0">
               <value>
@@ -88,18 +88,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScenarios -->
-        <test-method status="PASS" signature="quitApp(org.testng.ITestResult)[pri:0, instance:delta.main.DeltaDriver@26f67b76]" name="quitApp" is-config="true" duration-ms="27" started-at="2016-09-04T17:25:14Z" finished-at="2016-09-04T17:25:14Z">
+        <test-method status="PASS" signature="quitApp(org.testng.ITestResult)[pri:0, instance:delta.main.DeltaDriver@3dd3bcd]" name="quitApp" is-config="true" duration-ms="18" started-at="2016-09-10T16:07:16Z" finished-at="2016-09-10T16:07:16Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testScenarios status=SUCCESS method=DeltaDriver.testScenarios(java.lang.String, java.lang.String)[pri:0, instance:delta.main.DeltaDriver@26f67b76] output={null}]]]>
+                <![CDATA[[TestResult name=testScenarios status=SUCCESS method=DeltaDriver.testScenarios(java.lang.String, java.lang.String)[pri:0, instance:delta.main.DeltaDriver@3dd3bcd] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitApp -->
-        <test-method status="PASS" signature="endFrameWork()[pri:0, instance:delta.main.DeltaDriver@26f67b76]" name="endFrameWork" is-config="true" duration-ms="115" started-at="2016-09-04T17:25:14Z" finished-at="2016-09-04T17:25:15Z">
+        <test-method status="PASS" signature="endFrameWork()[pri:0, instance:delta.main.DeltaDriver@3dd3bcd]" name="endFrameWork" is-config="true" duration-ms="79" started-at="2016-09-10T16:07:16Z" finished-at="2016-09-10T16:07:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endFrameWork -->
