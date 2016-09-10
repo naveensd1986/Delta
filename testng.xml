@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DeltaSuite" parallel="tests">
+<parameter name="hubURL" value="http://10.10.4.66:4444/wd/hub"/>
+  <test name="ChromeTest">
+	  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="delta.main.DeltaDriver"/>
+    </classes>
+  </test> 
+  <test name="FirefoxTest">
+	  <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="delta.main.DeltaDriver"/>
+    </classes>
+  </test> 
+ </suite> <!-- Suite -->
+
